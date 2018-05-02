@@ -45,7 +45,7 @@ class dspace(
   $src_dir            = "/home/${owner}/dspace-src",
   $install_dir        = "/home/${owner}/dspace",
   $installer_dir_name = 'dspace-installer',
-  $git_repo           = 'https://github.com/DSpace/DSpace.git',
+  $git_repo           = 'https://gitlab.oit.duke.edu/ddr/dspace.git',
   $git_branch         = 'master',
   $mvn_params         = '',
   # PostgreSQL DB Settings (optional)
